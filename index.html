@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+
+<!--------------Instructions----------------->
+
+<body>
+    <div class="header">
+
+        <h1>Crystal Collector</h1>
+
+    </div>
+
+    <div class="howto">
+
+        <ol>
+            <li>You will be given a random number at the start of the game.</li>
+            <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</li>
+            <li>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Each time the game starts, the value of the each crystal will change. </li>
+
+        </ol>
+        <!--------------Win/Lose ----------------->
+    </div>
+    <div class="numberToWin">
+        <h2>Number to win:
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+
+    <div class="lostAndwon">
+        <h2>
+            Wins:
+            <span id="numberofWins"></span>
+            </br>
+            Losses:
+            <span id="numberofLosses"></span>
+        </h2>
+
+
+
+    </div>
+
+
+    <!------------Gem pics---------------->
+
+
+    <div class="pic">
+        <img src="assets/images/blue.jpg" class=picImage id="one" alt="Blue Gem">
+        <img src="assets/images/green.jpg" class=picImage id="two" alt="Green Gem">
+        <img src="assets/images/red.jpg" class=picImage id="three" alt="Red Gem">
+        <img src="assets/images/yellow.jpg" class=picImage id="four" alt="Blue Gem">
+
+    </div>
+
+    <!-----------------Score---------------->
+
+    <div class="score">
+        <h2> Your total score is:
+            <span id="score"></span>
+        </h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+</body>
+
+</html>
