@@ -1,4 +1,44 @@
-body{
-    background-image: url(https://cdn.pixabay.com/photo/2017/02/16/16/27/radial-2071767_960_720.jpg)
+body {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDqUpNdWbEFEsmwDhiG1Z_cSmVuo1-jZ1EvhyYJPxsQlIslIeoiA")
+}
 
+
+
+ title {
+     font-size: 30pt
+ }
+
+ h3 {
+	font-weight: bold;
+	
+}
+
+div.howto{
+    list-style: disc inside;
+
+}
+
+.numberToWin, .lostAndwon{
+	float: left;
+	width: 15%;
+	height: 75px;
+}
+
+.pic{
+	clear: both;
+}
+.picImage{
+	height: 70px;
+	margin: 10px;
+}
+
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+
+div{
+	border: solid 2px rgb(230, 162, 74);
+	padding: 10px;
 }
