@@ -1,4 +1,3 @@
-console.log("mazda");
 
 $(document).ready(function (ev) {
 
